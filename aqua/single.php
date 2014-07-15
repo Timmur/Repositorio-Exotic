@@ -127,7 +127,9 @@ if (!w.__utlWdgt ) {
 		
 	</div>	
 		
-	<?php get_sidebar(); ?>
+	< ?php if(!is_page(9)) : ? >
+              < ?php get_sidebar(1); ? >
+              < ?php endif; ? >
 		
 </div>	
 
