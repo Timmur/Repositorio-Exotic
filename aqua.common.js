@@ -160,7 +160,7 @@ jQuery(document).ready(function($){
 	    });
 	 });
     // PrettyPhoto
-    $(".pic a[rel^='fancybox']").prettyPhoto({
+    $(".pic a[rel^='prettyPhoto']").prettyPhoto({
 		animation_speed:'normal',
 		overlay_gallery: false,
 		social_tools: false
